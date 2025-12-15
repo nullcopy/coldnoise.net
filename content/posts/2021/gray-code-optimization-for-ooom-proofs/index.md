@@ -4,7 +4,7 @@ draft = false
 title = 'Using the Gray Code to Optimize One-out-of-Many Proofs'
 +++
 I recently discovered [an
-optimization](https://github.com/phreaknik/papers/blob/master/efficient-one-out-of-many-proofs-using-gray-codes/rendered.pdf)
+optimization](https://github.com/nullcopy/papers/blob/master/efficient-one-out-of-many-proofs-using-gray-codes/rendered.pdf)
 to the One-out-of-Many (OOM) proof protocol, and wanted to explain it in a less
 formal setting. In this work, I use the Gray Code to drastically reduce the
 mathematical complexity of the proving scheme. By extension, this optimization
@@ -183,7 +183,7 @@ feasible without compromising security or increasing memory requirements.
 
 The complete paper with mathematical proofs and detailed analysis is available
 on
-[GitHub](https://github.com/phreaknik/papers/blob/master/efficient-one-out-of-many-proofs-using-gray-codes/rendered.pdf).
+[GitHub](https://github.com/nullcopy/papers/blob/master/efficient-one-out-of-many-proofs-using-gray-codes/rendered.pdf).
 You can also find my (for research/evaluation purposes only) implementation of
 One-out-of-Many proofs with this Gray Code optimization on
-[GitHub](https://github.com/phreaknik/one-of-many-proofs).
+[GitHub](https://github.com/nullcopy/one-of-many-proofs).

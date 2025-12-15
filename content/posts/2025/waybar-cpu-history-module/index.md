@@ -29,7 +29,7 @@ And here it is in the Waybar:
 ## The Implementation
 
 You can find the full implementation in my
-[dotfiles](https://github.com/phreaknik/dot-config/blob/cec5f05a94bf0bd2274ea52b2ece8bd2f2aa128d/waybar/scripts/cpu_history.py).
+[dotfiles](https://github.com/nullcopy/dot-config/blob/cec5f05a94bf0bd2274ea52b2ece8bd2f2aa128d/waybar/scripts/cpu_history.py).
 
 ### The graph script
 
@@ -73,7 +73,7 @@ care about:
 ### Waybar Integration
 
 I then created a [custom Waybar
-module](https://github.com/phreaknik/dot-config/blob/cec5f05a94bf0bd2274ea52b2ece8bd2f2aa128d/waybar/modules.json#L42)
+module](https://github.com/nullcopy/dot-config/blob/cec5f05a94bf0bd2274ea52b2ece8bd2f2aa128d/waybar/modules.json#L42)
 to render the graph in my top bar. I
 added a toggle mode to hide the graph, and a tool-tip to show the instantaneous
 per-core CPU usage:

@@ -7,7 +7,7 @@ C macros get a bad rap—often deservedly so. But when developing drivers for
 embedded systems, carefully crafted macros can eliminate entire classes of bugs 
 while making your code more maintainable. In this post, I'll walk through 
 battle-tested macro patterns from production driver code, using examples from 
-[a driver I wrote](https://github.com/phreaknik/snsr288x) for the snsr288x 
+[a driver I wrote](https://github.com/nullcopy/snsr288x) for the snsr288x 
 family of devices.
 
 One question I get often: _when do you choose macros over inline functions?_
@@ -233,7 +233,7 @@ First, define get/set macros. These encapsulate the bit manipulation logic:
 ```
 
 Then define register values (see
-[snsr288x_regs.h](https://github.com/phreaknik/snsr288x/blob/master/inc/snsr288x_regs.h)) for
+[snsr288x_regs.h](https://github.com/nullcopy/snsr288x/blob/master/inc/snsr288x_regs.h)) for
 a thorough example. These may look something like:
 ```rust
 #define SNSR288X_REG__INTERRUPT_ENABLE_1__ADDR (0x05u)

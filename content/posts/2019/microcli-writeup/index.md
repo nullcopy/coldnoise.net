@@ -12,7 +12,7 @@ I'm talking specifically about bare metal projects, perhaps even without a
 standard library available. Of course, if your device can run linux, you have
 loads of great options for hosting a shell and building a CLI... but there's a
 gap for lower level systems. I built
-[MicroCLI](https://github.com/phreaknik/microcli) to address this gap by
+[MicroCLI](https://github.com/nullcopy/microcli) to address this gap by
 providing a reusable command-line interpreter framework specifically designed
 for resource-constrained embedded systems.
 
@@ -103,5 +103,5 @@ modern CLI capabilities, it eliminates the need to repeatedly implement custom
 debug interfaces for each project.
 
 MicroCLI is available at
-[github.com/phreaknik/microcli](https://github.com/phreaknik/microcli).
+[github.com/nullcopy/microcli](https://github.com/nullcopy/microcli).
 Contributions and feedback from the embedded development community are welcome.

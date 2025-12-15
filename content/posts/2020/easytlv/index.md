@@ -4,7 +4,7 @@ draft = false
 title = 'EasyTLV: A Lightweight TLV Serialization Library'
 +++
 
-[EasyTLV](https://github.com/phreaknik/easytlv) is a TLV (Tag-Length-Value) serialization library I built while developing smartcard drivers for the [GridPlus hardware wallet](https://gridplus.io/). TLV is a simple binary encoding format where each data element is represented as a tag identifying the type, a length field indicating the size, and the actual value bytes.
+[EasyTLV](https://github.com/nullcopy/easytlv) is a TLV (Tag-Length-Value) serialization library I built while developing smartcard drivers for the [GridPlus hardware wallet](https://gridplus.io/). TLV is a simple binary encoding format where each data element is represented as a tag identifying the type, a length field indicating the size, and the actual value bytes.
 
 ## Why Am I Working With TLV?
 
@@ -219,7 +219,7 @@ etlv_parse(inner, &innerCount, outer[0].val, outer[0].len);
 
 ## Availability
 
-EasyTLV is available under the MIT license at [github.com/phreaknik/easytlv](https://github.com/phreaknik/easytlv). It's a single-file library that can be dropped into any C project. The repository includes comprehensive examples demonstrating common use cases like nested TLV parsing and working with extended length fields.
+EasyTLV is available under the MIT license at [github.com/nullcopy/easytlv](https://github.com/nullcopy/easytlv). It's a single-file library that can be dropped into any C project. The repository includes comprehensive examples demonstrating common use cases like nested TLV parsing and working with extended length fields.
 
 ## Conclusion
 

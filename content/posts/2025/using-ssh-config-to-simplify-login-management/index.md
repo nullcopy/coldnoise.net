@@ -35,7 +35,7 @@ Or use separate SSH keys for my professional vs. personal GitHub accounts:
 
 ```bash
 GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519.work" git clone git@github.com:john_bigcorp/secret-sauce.git
-GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519.personal" git clone git@github.com:phreaknik/blog.git
+GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519.personal" git clone git@github.com:nullcopy/blog.git
 ```
 
 *Note: Git has some config options that help reduce this complexity, but in my
@@ -78,11 +78,11 @@ can eliminate all this juggling.
 Here's how I set up my GitHub identities:
 
 ```bash
-# Personal GitHub Identity (github.com/phreaknik)
-Host phreaknik.github.com
+# Personal GitHub Identity (github.com/nullcopy)
+Host nullcopy.github.com
 	HostName github.com
 	User git
-	IdentityFile ~/.ssh/id_ed25519.phreaknik
+	IdentityFile ~/.ssh/id_ed25519.nullcopy
 
 # Work GitHub Identity (github.com/john_bigcorp)
 Host john_bigcorp.github.com
@@ -96,7 +96,7 @@ host:
 
 ```bash
 # Clone a personal project
-git clone git@phreaknik.github.com:phreaknik/microcli.git
+git clone git@nullcopy.github.com:nullcopy/microcli.git
 
 # Clone a company project that john_bigcorp has access to
 git clone git@john_bigcorp.github.com:NotTesla/secret-sauce.git
@@ -121,14 +121,14 @@ Host fiatmine
 # Personal user on my NAS box
 Host nas
 	HostName 192.168.1.101
-	User phreaknik
-	IdentityFile ~/.ssh/id_ed25519.phreaknik
+	User nullcopy
+	IdentityFile ~/.ssh/id_ed25519.nullcopy
 
 # My wife's user on my NAS (just use my personal key for this)
 Host nas
 	HostName 192.168.1.101
 	User mawife
-	IdentityFile ~/.ssh/id_ed25519.phreaknik
+	IdentityFile ~/.ssh/id_ed25519.nullcopy
 ```
 
 Now I can SSH into any of these servers much more easily:
@@ -141,7 +141,7 @@ ssh workuser@box1
 ssh workuser@fiatmine
 
 # Login to my NAS with my personal user
-ssh phreaknik@nas
+ssh nullcopy@nas
 
 # Do some admin work in my wife's account on our NAS
 ssh mawife@nas

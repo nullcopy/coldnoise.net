@@ -26,7 +26,7 @@ home = ["HTML", "RSS", "JSON"]
   description = "Personal blog by John Boyd"
 
   [params.editPost]
-    URL = "https://github.com/phreaknik/coldnoise.net/tree/master/content"
+    URL = "https://github.com/nullcopy/coldnoise.net/tree/master/content"
     Text = "Suggest Changes" # edit text
     appendFilePath = true # to append file path to Edit link
 
@@ -42,7 +42,7 @@ home = ["HTML", "RSS", "JSON"]
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/phreaknik"
+    url = "https://github.com/nullcopy"
   
 [menu]
   [[menu.main]]
