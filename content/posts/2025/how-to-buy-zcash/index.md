@@ -131,13 +131,18 @@ with "0x"). This is your refund address in case the swap fails
   > **Tip**: Save this address as a contact in Zashi's address book so you don't
   > have to copy/paste it next time
 
+<div class="image-row">
+
 {{< img src="screenshots/07-zashi-add-contact.png" alt="Adding contact in Zashi" caption="Save your Base address as a contact for convenience" >}}
 
 {{< img src="screenshots/08-zashi-swap-rfq.png" alt="Request for quote screen" caption="Zashi preparing to request a swap quote" >}}
 
+</div>
+
 ### Get a Quote and Confirm
 
-5) Enter the amount of USDC you want to swap (in this example, $9.80)
+5) Enter the amount of USDC you want to swap (in this example, I have $9.80
+available in zkP2P)
 6) Tap "Get a quote" to request current exchange rates
 7) Review the quote details and confirm the trade when you're satisfied with
 the rate

@@ -9,7 +9,8 @@
 .responsive-image img {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 500px;
+    width: 100%;
     height: auto;
     border-radius: 4px;
 }
@@ -24,10 +25,6 @@
 @media (max-width: 768px) {
     .responsive-image {
         margin: 1.5rem auto;
-    }
-
-    .responsive-image img {
-        max-width: 100%;
     }
 
     .responsive-image figcaption {
@@ -52,4 +49,37 @@
     font-weight: normal !important;
     font-size: 14px;
     color: var(--primary);
+}
+
+/* Side-by-side images container */
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem auto;
+    max-width: 100%;
+}
+
+.image-row .responsive-image {
+    flex: 1;
+    min-width: 250px;
+    max-width: 45%;
+    margin: 0;
+}
+
+.image-row .responsive-image img {
+    max-width: 100%;
+}
+
+/* Mobile: stack side-by-side images */
+@media (max-width: 768px) {
+    .image-row {
+        flex-direction: column;
+    }
+
+    .image-row .responsive-image {
+        max-width: 500px;
+        width: 100%;
+    }
 }
