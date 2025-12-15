@@ -5,48 +5,62 @@ title = 'Buying Zcash the Trustless Way: Zashi + zkP2P'
 +++
 
 This tutorial walks through buying Zcash (ZEC) directly from fiat currency
-(USD) in a trustless, censorship-resistant way. Unlike traditional exchanges
-that require KYC verification and can freeze accounts, this method combines
-[Zashi](https://electriccoin.co/zashi) (a privacy-focused Zcash wallet) and
-[zkP2P](https://zkp2p.xyz) (a peer-to-peer exchange) to purchase ZEC without
-trusting a centralized intermediary.
+(USD) without needing to trust a company or provide identification. Unlike
+traditional exchanges that require KYC verification (identity documents like a
+driver's license) and can freeze your account, this method combines
+[Zashi](https://electriccoin.co/zashi) (a privacy-focused Zcash wallet app) and
+[zkP2P](https://zkp2p.xyz) (a peer-to-peer exchange) to purchase ZEC directly
+from other users.
 
-The process is simple: use zkP2P to convert fiat (Venmo, Paypal, CashApp, etc.)
-into USDC, then use Zashi to swap that USDC for ZEC. For more technical
-details, see [how NEAR intents work in
+The process: use zkP2P to convert fiat (Venmo, Paypal, CashApp, etc.) into
+USDC (a digital dollar), then use Zashi to swap that USDC for ZEC. This
+two-step process exists because you can't buy ZEC directly with fiat in a
+privacy-preserving way - the intermediate step through USDC makes it possible.
+For more technical details, see [how NEAR intents work in
 Zashi](https://electriccoin.co/blog/zashi-swaps-decentralized-on-ramp-is-live/)
 and [how zkP2P uses zero-knowledge
 proofs](https://docs.zkp2p.xyz/protocol/zkp2p-protocol).
 
 ## Prerequisites
 
-Before starting this tutorial, ensure you have:
+Before starting this tutorial, you'll need:
 
-- **Zashi wallet** installed and set up on your mobile device
-- **Fiat payment account** such as Venmo (or another payment method supported by zkP2P)
-- **Small amount of USD** to purchase with (this tutorial uses $10 as an example)
+### 1. Install Zashi Wallet
 
-Note: This process involves some transaction fees, so the amount of ZEC you
-receive will be slightly less than your starting USD amount.
+[Zashi](https://electriccoin.co/zashi) is the mobile app for you to
+store/send/receive Zcash. Download it from:
+- **iPhone**: Search "Zashi" in the App Store
+- **Android**: Search "Zashi Wallet" in Google Play Store
+
+After installing, open the app and:
+1. Tap "Create New Wallet"
+3. Follow steps to complete setup
+
+### 2. Payment Method
+
+You'll need a **Venmo, CashApp, Zelle, Revolute, or Paypal account** to pay for
+USDC on zkP2P.
+
+### 3. Starting Amount
+
+Have a **small amount of USD ready** (this tutorial uses $10 as an example).
+Transaction fees will reduce your final ZEC amount slightly.
 
 ## Step 1: Buy USDC on zkP2P
 
-The first step is to acquire USDC (a stablecoin) using zkP2P. zkP2P is a
-peer-to-peer exchange that connects buyers and sellers directly while using
-zero-knowledge proofs to verify payments without revealing sensitive financial
-details. You'll purchase USDC on the Base blockchain, which you'll then convert
-to Zcash in the next step.
+The first step is to acquire USDC (a digital dollar) using zkP2P. zkP2P
+connects you directly with sellers, and you'll pay them via Venmo (or another
+payment app). You'll receive USDC on the Base blockchain, which you'll then
+convert to Zcash in the next step.
 
 ### Create Your Account
 
 1) Visit https://zkp2p.xyz
-2) Create an account
-  > An email account is fast and easy to set up, but be aware of security
-  > concerns. The email method is hosted by Privy relies on them to safeguard
-  > your keys. For this reason, I would only use this account for small
-  > purchases with immediate withdrawals to Zashi. For larger purchases or
-  > selling, I would use a non-custodial wallet like Rabby, MetaMask, Backpack,
-  > etc.
+2) Create an account using your email
+  > **Security note**: The email signup option uses a service called Privy that
+  > controls your zkP2P wallet for you (like how your bank controls your bank
+  > account). This is convenient but means you're trusting them. For larger
+  > amounts, consider using a self-custody wallet option instead.
 
 ### Place Your Order
 
@@ -92,13 +106,17 @@ new USDC balance
 
 {{< img src="screenshots/04-USDC-received.png" alt="zkP2P balance screen" caption="Your USDC balance is now available to send" >}}
 
+16) **Important**: While on the "Send" tab, look for your wallet address
+(starts with "0x"). Copy this address - you'll need it in Step 2 as your refund
+address. It's displayed near the top of the screen, usually next to a copy
+button.
+
 ## Step 2: Convert USDC to ZEC via Zashi's Swap Feature
 
-Now that you have USDC on the Base blockchain, you'll use Zashi's built-in swap
-functionality to convert it to Zcash (ZEC). Zashi uses NEAR-intents to
-facilitate decentralized, trust-minimized swaps while maintaining privacy. The
-ZEC you receive will be deposited directly into a shielded address in your
-Zashi wallet.
+Now that you have USDC, you'll use Zashi's built-in swap feature to convert it
+to Zcash (ZEC). This swap happens without any company in the middle. The ZEC
+you receive will go into a "shielded address" (a private address that hides
+your transaction details).
 
 ### Set Up the Swap
 
@@ -108,10 +126,10 @@ Zashi wallet.
 
 {{< img src="screenshots/06-zashi-select-USDC.png" alt="Token selection screen in Zashi" caption="Select USDC on Base as the source token" >}}
 
-4) Enter your Base address from zkP2P as a refund address in case the swap
-fails
-  > **Recommended**: Save this Base address as a contact in Zashi's address
-  > book for easy access in future swaps
+4) Paste the zkP2P wallet address you copied in Step 1.16 (the one starting
+with "0x"). This is your refund address in case the swap fails
+  > **Tip**: Save this address as a contact in Zashi's address book so you don't
+  > have to copy/paste it next time
 
 {{< img src="screenshots/07-zashi-add-contact.png" alt="Adding contact in Zashi" caption="Save your Base address as a contact for convenience" >}}
 
@@ -134,8 +152,8 @@ this address
 {{< img src="screenshots/10-zashi-swap-deposit-address.png" alt="Deposit address screen" caption="Copy the deposit address provided by Zashi" >}}
 
 9) Return to zkP2P, navigate to the "Send" tab, and send your USDC to the
-address Zashi provided. Wait for the transaction to be confirmed on the
-blockchain
+address Zashi provided. Wait for the transaction to be confirmed (usually 1-2
+minutes)
 
 {{< img src="screenshots/11-send-from-zkp2p.png" alt="Sending USDC from zkP2P" caption="Send your USDC to the Zashi swap address" >}}
 
@@ -148,13 +166,16 @@ shielded address
 ## Conclusion
 
 Congratulations! You've successfully purchased Zcash using zkP2P and Zashi.
-Remember to keep your Zashi wallet and recovery phrase secure. It will take a
-few minutes for your ZEC to become spendable.
+Your ZEC will take a few minutes to become "spendable" (ready to send). Once
+it's ready, why not test it out? Send me an encrypted message:
 
-Now that you've got ZEC in a shielded address, why not test it out? Send me an
-encrypted message using Zashi's memo feature. Scan the QR code below or copy
-the address, attach a memo with your thoughts on this tutorial, and fire away.
-I'd love to hear from you.
+1. In Zashi, tap "Send"
+2. Scan the QR code below (or paste the address from the caption)
+3. Enter a small amount to pay the network fee
+4. Leave me some feedback.
+5. Send!
+
+The memo is encrypted and only I can read it. I'd love to hear from you.
 
 {{< img src="zec-addr-qr.jpeg" alt="Author's Zcash shielded address QR code" caption="u1rcw0ppy2z4am3rh7kffh0gn3zscw5dpffnvvajwpx4u7qe5syg3ygf0z4cp2w2czxl4tw3k3s5jzgdvdutx0095gp0mdp5mz203cm905kchcp80jsu39s7ummxxeak9rgvel233dgh4rza0t8nsj0dxhu8wmy42dugxgslgedywlwlkm" >}}
 
