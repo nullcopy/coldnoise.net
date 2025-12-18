@@ -3,7 +3,7 @@ layout: standalone
 title: About
 ShowToC: false
 ---
-<img src="headshot.jpeg" alt="Headshot photo" style="float: left; margin-right: 20px; margin-bottom: 10px; width: 210px;">
+![Headshot photo](headshot.jpeg)
 
 Hi, I'm John 👋
 
@@ -12,8 +12,6 @@ systems, electronics design, and blockchain technology. This blog documents my
 work, research, and general musings in these subject areas (mostly).
 
 Expect a mix of polished writeups and rough notes -- feedback and discussion welcome :)
-
-<div style="clear: both;"></div>
 
 ## Contact
 - GitHub: [@nullcopy](https://github.com/nullcopy)

@@ -90,7 +90,7 @@ ZEC.
 
 3) Search for the **USDC** token on **Base**
 
-{{< img src="screenshots/06-zashi-select-USDC.png" alt="Token selection screen in Zashi" caption="Select USDC on Base as the source token" >}}
+![Token selection screen in Zashi](screenshots/06-zashi-select-USDC.png "Select USDC on Base as the source token")
 
 4) Paste in your zkP2P wallet address you copied (the one starting with "0x")
     - If the swap fails for any reason, your USDC will be returned to that address.
@@ -98,8 +98,8 @@ ZEC.
     - **Tip:** Save it as a contact in Zashi so you don't need to copy/paste next time
 
 <div class="image-row">
-{{< img src="screenshots/07-zashi-add-contact.png" alt="Adding contact in Zashi" caption="Save your Base address as a contact for convenience" >}}
-{{< img src="screenshots/08-zashi-swap-rfq.png" alt="Request for quote screen" caption="Ready to request a swap quote" >}}
+![Adding contact in Zashi](screenshots/07-zashi-add-contact.png "Save your Base address as a contact for convenience")
+![Request for quote screen](screenshots/08-zashi-swap-rfq.png "Ready to request a swap quote")
 </div>
 
 ### Get Your Price Quote
@@ -113,14 +113,14 @@ zkP2P, around $9.80 in my case).
 
 8) Tap to confirm to complete start the trade
 
-{{< img src="screenshots/09-zashi-swap-review-quote.png" alt="Quote confirmation screen" caption="Review and confirm the swap quote" >}}
+![Quote confirmation screen](screenshots/09-zashi-swap-review-quote.png "Review and confirm the swap quote")
 
 ### Send Your USDC and Complete the Swap
 
 9) Zashi shows you an address where you need to send your USDC - **copy this
 address**
 
-{{< img src="screenshots/10-zashi-swap-deposit-address.png" alt="Deposit address screen" caption="Copy the deposit address provided by Zashi" >}}
+![Deposit address screen](screenshots/10-zashi-swap-deposit-address.png "Copy the deposit address provided by Zashi")
 
 10) Switch back to zkP2P website, go to the **"Send"** tab
 
@@ -128,7 +128,7 @@ address**
 
 12) Wait 1-2 minutes for the transaction to confirm
 
-{{< img src="screenshots/11-send-from-zkp2p.png" alt="Sending USDC from zkP2P" caption="Send your USDC to the Zashi swap address" >}}
+![Sending USDC from zkP2P](screenshots/11-send-from-zkp2p.png "Send your USDC to the Zashi swap address")
 
 13) Return to the Zashi app and tap **"I've sent the funds"**
 
@@ -151,7 +151,7 @@ Use your ZEC to send me your feedback in an encrypted message!
 The message is encrypted - only I can read it. I'd love to hear how this guide
 worked for you!
 
-{{< img src="zec-addr-qr.jpeg" alt="Author's Zcash shielded address QR code" caption="u1rcw0ppy2z4am3rh7kffh0gn3zscw5dpffnvvajwpx4u7qe5syg3ygf0z4cp2w2czxl4tw3k3s5jzgdvdutx0095gp0mdp5mz203cm905kchcp80jsu39s7ummxxeak9rgvel233dgh4rza0t8nsj0dxhu8wmy42dugxgslgedywlwlkm" >}}
+![Author's Zcash shielded address QR code](zec-addr-qr.jpeg "u1rcw0ppy2z4am3rh7kffh0gn3zscw5dpffnvvajwpx4u7qe5syg3ygf0z4cp2w2czxl4tw3k3s5jzgdvdutx0095gp0mdp5mz203cm905kchcp80jsu39s7ummxxeak9rgvel233dgh4rza0t8nsj0dxhu8wmy42dugxgslgedywlwlkm")
 
 ---
 

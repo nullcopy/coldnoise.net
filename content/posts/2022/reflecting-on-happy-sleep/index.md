@@ -5,7 +5,7 @@ title = 'Speed-running Wearables at Happy Sleep'
 +++
 Another product shipped!
 
-{{< img src="happy-ring-on-finger.jpg" alt="Happy Sleep ring on finger" caption="The Happy Sleep ring." >}}
+![Happy Sleep ring on finger](happy-ring-on-finger.jpg "The Happy Sleep ring.")
 
 Since leaving Tesla earlier this year, I've been working at [Happy
 Sleep](https://www.happysleep.com/) developing a cutting-edge smart ring. I

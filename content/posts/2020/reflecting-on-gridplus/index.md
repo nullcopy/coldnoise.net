@@ -8,7 +8,7 @@ as tech lead building hardware cryptocurrency wallets that now secure assets for
 some of the world's largest crypto custodians. I wanted to take a moment to 
 reflect on what was truly an exceptional journey.
 
-{{< img src="gridplus-suite.webp" alt="Gridplus product photo" caption="The full Gridplus product suite." >}}
+![Gridplus product photo](gridplus-suite.webp "The full Gridplus product suite.")
 
 ## The Technical Deep End
 
@@ -26,7 +26,7 @@ One of my favorite challenges was developing firmware that could interpret
 contract data and render it clearly for user approval -- a critical security
 feature that helps users understand exactly what they're signing.
 
-{{< img src="gridplus-exploded.webp" alt="Gridplus Lattice1 exploded view" caption="Exploded view of the GridPlus Lattice1." >}}
+![Gridplus Lattice1 exploded view](gridplus-exploded.webp "Exploded view of the GridPlus Lattice1.")
 
 ## The Evolution of Our Vision
 

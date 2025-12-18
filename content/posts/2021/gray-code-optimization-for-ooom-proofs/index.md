@@ -80,7 +80,7 @@ red. Each red cell represents new work that has to be performed for that
 position in the set, while the white cells can be reused from the previous
 iteration. Notice the Gray code has significantly fewer red cells:
 
-{{< img src="bit-transitions.png" alt="Bit Transitions Comparison PNG" caption="Comparison of binary and gray coded decimal numbers. The red cells indicate bits that have to transition when iterating from the previous integer. Notice the Gray code only ever has one bit transition per integer." >}}
+![Bit Transitions Comparison PNG](bit-transitions.png "Comparison of binary and gray coded decimal numbers. The red cells indicate bits that have to transition when iterating from the previous integer. Notice the Gray code only ever has one bit transition per integer.")
 
 I'd previously used this to optimize the layout of transistors in a
 semiconductor design, but I'd never applied this as a computational
@@ -115,9 +115,9 @@ and then for comparison, I show the same implementation modified to incorporate
 the optimization. For this test, I am using a 12 bit anonymity set (4K members)
 and a batch size of 100.
 
-{{< img src="with-gray-code.png" alt="With-Gray-Code" caption="Batch verify 100 proofs with Gray encoding: ~509ms / 100 proofs = ~5.09ms / proof" >}}
+![With-Gray-Code](with-gray-code.png "Batch verify 100 proofs with Gray encoding: ~509ms / 100 proofs = ~5.09ms / proof")
 
-{{< img src="without-gray-code.png" alt="Without Gray Code" caption="Batch verify 100 proofs without Gray encoding: ~1332ms / 100 proofs = ~13.3ms / proof" >}}
+![Without Gray Code](without-gray-code.png "Batch verify 100 proofs without Gray encoding: ~1332ms / 100 proofs = ~13.3ms / proof")
 
 As you can see, I achieved nearly 3x speed-up in this scenario. This is roughly
 equivalent to a privacy transaction protocol operating at ~200 transactions per

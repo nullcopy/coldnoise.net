@@ -20,11 +20,11 @@ longer dot matrix; one large enough to render a small graph.
 
 This is what I came up with:
 
-{{< img src="screenshot-short.png" alt="Screenshot2" caption="CPU history graph module" >}}
+![Screenshot2](screenshot-short.png "CPU history graph module")
 
 And here it is in the Waybar:
 
-{{< img src="screenshot-long.png" alt="Screenshot1" caption="CPU graph integrated into Waybar" >}}
+![Screenshot1](screenshot-long.png "CPU graph integrated into Waybar")
 
 ## The Implementation
 

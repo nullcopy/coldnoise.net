@@ -11,7 +11,7 @@ lights, or knock a secret pattern to arm your security system—think of it as
 [The Clapper](https://en.wikipedia.org/wiki/The_Clapper) reimagined for modern
 smart homes.
 
-{{< img src="knocki-mounting.jpeg" alt="Knocki product photo" caption="Knocki device mounting to a wall." >}}
+![Knocki product photo](knocki-mounting.jpeg "Knocki device mounting to a wall.")
 
 ## The Technical Challenge
 
@@ -40,7 +40,7 @@ fixes, and plenty of hot air rework. We launched on
 and became the largest successful project from Texas at the time, ranking in
 the top 5 worldwide.
 
-{{< img src="knocki-prototype.jpg" alt="Early Knocki prototype" caption="Early prototype. I forgot to add the ground fill layer when I ordered the PCB, so I had to manually wire up each ground connection 😆" >}}
+![Early Knocki prototype](knocki-prototype.jpg "Early prototype. I forgot to add the ground fill layer when I ordered the PCB, so I had to manually wire up each ground connection 😆")
 
 As we scaled, I built and managed a multidisciplinary engineering team spanning
 electronics, mechanical design, firmware, systems engineering, and web/mobile

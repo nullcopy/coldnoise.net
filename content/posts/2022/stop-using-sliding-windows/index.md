@@ -143,7 +143,7 @@ large window size).
 Below is an example of some noisy sensor data, and two EWMA filters used to
 "smooth out" the data:
 
-{{< img src="ewma-demo.png" alt="EWMA Demo" caption="Two EWMA filters (red & yellow) applied to a noisy sensor data stream. The red EWMA has higher alpha than the yellow, and thus tracks the sensor output more closely." >}}
+![EWMA Demo](ewma-demo.png "Two EWMA filters (red & yellow) applied to a noisy sensor data stream. The red EWMA has higher alpha than the yellow, and thus tracks the sensor output more closely.")
 
 ## Summing it all up
 

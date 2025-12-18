@@ -35,7 +35,7 @@ residue amplifiers. A residue amplifier is an analog circuit which computes the
 digital division of the input signal, and outputs an analog remainder (or
 residue) after the division. I've drawn an example using opamps:
 
-{{< img src="residue-amp.png" alt="residue-amplifier" caption="Residue amplifier ADC from an opamp" >}}
+![residue-amplifier](residue-amp.png "Residue amplifier ADC from an opamp")
 
 Essentially, `D[n]` outputs logic high if `Vin > Vref`, and `R(n)` is the
 amplified remainder. In essence, this is a 1-bit digital division of `Vin /
@@ -50,9 +50,9 @@ signal 🎉.
 To help illustrate this, I mocked up a chain of 2 residue amplifiers for a
 simple 2-bit ADC, and plot their intermediate signals:
 
-{{< img src="two-stage-circuit.png" alt="two-stage-circuit" caption="A two stage residue-amplifier ADC" >}}
+![two-stage-circuit](two-stage-circuit.png "A two stage residue-amplifier ADC")
 
-{{< img src="two-stage-signals.png" alt="two-stage-signals" caption="Signals plotted while sweeping Vin from 0->VDD" >}}
+![two-stage-signals](two-stage-signals.png "Signals plotted while sweeping Vin from 0->VDD")
 
 This gives some insight into how each digital value is calculated from the
 residue of the previous. One detail I have glossed over until now, is the fact
@@ -68,12 +68,12 @@ low-profile potentiometer to provide a nice fidgety input
 signal (user can twist to sweep input from `0 to VDD`), and an
 LED output at each `D[n]` for a visual readout:
 
-{{< img src="schematic.jpg" alt="schematic" caption="Schematic design for 4-stage ADC demo" >}}
+![schematic](schematic.jpg "Schematic design for 4-stage ADC demo")
 
 Using a total of 8 opamps, I can achieve a compact layout using two quad-amp
 ICs:
 
-{{< img src="layout.jpg" alt="layout" caption="PCB layout for 4-stage ADC keychain" >}}
+![layout](layout.jpg "PCB layout for 4-stage ADC keychain")
 
 Here is the BOM I selected:
 | Qty | Description | Part number |
@@ -90,7 +90,7 @@ Here is the BOM I selected:
 
 After a quick-turn PCB run, here's the finished gadget:
 
-{{< img src="final.jpg" alt="final" caption="Final assembled PCB" >}}
+![final](final.jpg "Final assembled PCB")
 
 *The finished result. A fun, fidgety, ADC keychain.*
 

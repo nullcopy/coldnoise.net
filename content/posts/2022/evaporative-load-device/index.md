@@ -51,7 +51,7 @@ would steadily (and _smoothly_) increase as the cloth dried out.
 
 So I decided to give it a try. One Kimwipe, a few strips of Kapton tape, and
 about 5 minutes of my time were all it took:
-{{< img src="evap-ring.jpg" alt="Evaporative load" caption="I rolled a Kimwipe and affixed it to the ring with Kapton tape. I could repeatedly soak the wipe and measure impedance as the wipe dried out. Isopropyl alcohol was helpful for quicker evaporation times." >}}
+![Evaporative load](evap-ring.jpg "I rolled a Kimwipe and affixed it to the ring with Kapton tape. I could repeatedly soak the wipe and measure impedance as the wipe dried out. Isopropyl alcohol was helpful for quicker evaporation times.")
 
 The results were perfect! Although the sweep was not linear (more like an
 exponential decay), it was smooth, repeatable, and very useful for monitoring
@@ -60,7 +60,7 @@ results were very repeatable; exactly what I needed from my validation setup.
 
 Here is an example impedance sweep I was able to capture (measured as
 conductance instead of impedance):
-{{< img src="conductance-sweep.png" alt="Conductance sweep" caption="Conductance sweep measured by the DAQ." >}}
+![Conductance sweep](conductance-sweep.png "Conductance sweep measured by the DAQ.")
 
 ## Conclusion
 
