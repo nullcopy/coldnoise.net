@@ -1,2 +1,6 @@
+.hugo_build.lock
+.DS_Store
+.venv/
 public/
-resources/_gen/
+resources/
+node_modules/
