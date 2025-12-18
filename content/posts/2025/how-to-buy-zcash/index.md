@@ -52,8 +52,8 @@ but zkP2P supports a wide range of payment apps and global currencies.
 
 ### 3. Money to Spend
 
-Have $10 ready for your first purchase. Small fees will reduce your
-final amount slightly, so you might end up with ~$9 worth of Zcash after fees.
+Have ~$10 ready for your first purchase. Small fees will reduce your
+final amount slightly.
 
 ## Step 1: Buy USDC (Digital Dollars)
 
