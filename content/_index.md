@@ -1,5 +1,3 @@
 ---
 title: "Home"
 ---
-
-{{< art-wave >}}
