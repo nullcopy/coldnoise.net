@@ -47,6 +47,9 @@ home = ["HTML", "RSS", "JSON"]
   [markup.goldmark.parser.attribute]
     block = true
 
+  [markup.goldmark.renderer]
+    unsafe = true
+
   [markup.highlight]
     # Enable line numbers and render them in a table
     lineNos = true
