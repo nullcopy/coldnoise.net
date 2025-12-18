@@ -3,6 +3,7 @@ title: "Reflecting on my time at Knocki (Haptic Inc.)"
 date: 2018-01-04T11:08:20-05:00
 draft: false
 showToc: true
+tags: ['career', 'startup', 'hardware', 'IoT', 'embedded']
 ---
 [Knocki](https://knocki.com) was my first startup, where I served as CTO and
 led development of a device that transforms any surface into a smart

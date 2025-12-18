@@ -2,6 +2,7 @@
 date = '2022-11-22T16:19:19-05:00'
 draft = false
 title = 'Speed-running Wearables at Happy Sleep'
+tags = ['career', 'startup', 'hardware', 'wearables']
 +++
 Another product shipped!
 

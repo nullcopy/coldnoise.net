@@ -2,6 +2,7 @@
 date = '2025-12-14T14:26:50-06:00'
 draft = false
 title = 'Buy Zcash Privately: A Step-by-Step Guide'
+tags = ['cryptocurrency', 'privacy', 'Zcash', 'tutorial']
 +++
 
 This guide shows you how to buy Zcash (ZEC) **without going through a

@@ -2,6 +2,7 @@
 date = '2025-09-09T23:48:48-05:00'
 draft = false
 title = 'Building a CPU Graph for Waybar'
+tags = ['linux', 'Hyprland', 'Waybar', 'python', 'customization']
 +++
 
 Recently I decided to dive down the Hyprland rabbit hole. Rather than using an

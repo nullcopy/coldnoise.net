@@ -2,6 +2,7 @@
 date = '2019-12-01T10:00:00-05:00'
 draft = false
 title = 'MicroCLI: A Lightweight CLI Framework for Bare Metal Systems'
+tags = ['embedded', 'C', 'firmware', 'CLI', 'open-source']
 +++
 When working on embedded systems, I typically rely on some form of serial
 interface for debugging the firmware and perhaps issuing some control commands.

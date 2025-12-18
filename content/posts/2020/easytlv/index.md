@@ -2,6 +2,7 @@
 date = '2020-11-10T10:00:00-05:00'
 draft = false
 title = 'EasyTLV: A Lightweight TLV Serialization Library'
+tags = ['embedded', 'C', 'serialization', 'smart-cards', 'firmware', 'open-source']
 +++
 
 [EasyTLV](https://github.com/nullcopy/easytlv) is a TLV (Tag-Length-Value) serialization library I built while developing smartcard drivers for the [GridPlus hardware wallet](https://gridplus.io/). TLV is a simple binary encoding format where each data element is represented as a tag identifying the type, a length field indicating the size, and the actual value bytes.

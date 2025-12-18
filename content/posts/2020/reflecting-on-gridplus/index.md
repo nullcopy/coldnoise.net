@@ -2,6 +2,7 @@
 date = '2020-01-14T14:06:23-05:00'
 draft = false
 title = "Reflecting on my time at GridPlus"
+tags = ['career', 'startup', 'hardware', 'cryptocurrency', 'blockchain', 'security']
 +++
 I recently left [GridPlus](https://gridplus.io/) after 3 years, where I served 
 as tech lead building hardware cryptocurrency wallets that now secure assets for 

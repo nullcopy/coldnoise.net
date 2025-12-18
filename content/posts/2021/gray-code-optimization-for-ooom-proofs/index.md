@@ -2,6 +2,7 @@
 date = '2021-02-16T10:00:00-05:00'
 draft = false
 title = 'Using the Gray Code to Optimize One-out-of-Many Proofs'
+tags = ['cryptography', 'optimization', 'zero-knowledge-proofs', 'blockchain', 'algorithms']
 +++
 I recently discovered [an
 optimization](https://github.com/nullcopy/papers/blob/master/efficient-one-out-of-many-proofs-using-gray-codes/rendered.pdf)

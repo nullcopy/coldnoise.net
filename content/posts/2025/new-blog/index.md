@@ -2,6 +2,7 @@
 date = '2025-09-03T16:56:25-05:00'
 draft = false
 title = 'Reviving the Blog'
+tags = ['meta', 'announcement']
 +++
 
 The blog is back online at https://coldnoise.net—which you already know if

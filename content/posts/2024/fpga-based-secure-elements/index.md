@@ -2,6 +2,7 @@
 date = '2024-07-21T13:31:16-05:00'
 draft = false
 title = 'FPGA Based Secure Elements'
+tags = ['security', 'FPGA', 'hardware', 'cryptography', 'trust']
 +++
 
 I recently spoke with a colleague working on an open-source [secure

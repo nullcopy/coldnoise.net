@@ -2,6 +2,7 @@
 date = '2022-01-07T15:38:51-05:00'
 draft = false
 title = 'Time for a Change: Leaving Tesla'
+tags = ['career', 'Tesla', 'autopilot', 'firmware']
 +++
 I recently made the difficult decision to leave Tesla.
 

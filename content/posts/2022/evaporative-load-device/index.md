@@ -2,6 +2,7 @@
 date = '2022-04-09T16:56:07-05:00'
 draft = false
 title = 'Evaporative Test Load for DAQ Testing'
+tags = ['hardware', 'testing', 'embedded', 'wearables', 'engineering']
 +++
 Every now and then, I come up with a hack for a problem that's better than a
 purpose built solution. I love when this happens. I wanted to share a quick
