@@ -152,7 +152,8 @@ Use your ZEC to send me your feedback in an encrypted message!
 The message is encrypted - only I can read it. I'd love to hear how this guide
 worked for you!
 
-![Author's Zcash shielded address QR code](zec-addr-qr.jpeg "u1rcw0ppy2z4am3rh7kffh0gn3zscw5dpffnvvajwpx4u7qe5syg3ygf0z4cp2w2czxl4tw3k3s5jzgdvdutx0095gp0mdp5mz203cm905kchcp80jsu39s7ummxxeak9rgvel233dgh4rza0t8nsj0dxhu8wmy42dugxgslgedywlwlkm")
+![Author's Zcash shielded address QR code](zec-addr-qr.jpeg)
+[u1rcw0ppy2z4am3rh7kffh0gn3zscw5dpffnvvajwpx4u7qe5syg3ygf0z4cp2w2czxl4tw3k3s5jzgdvdutx0095gp0mdp5mz203cm905kchcp80jsu39s7ummxxeak9rgvel233dgh4rza0t8nsj0dxhu8wmy42dugxgslgedywlwlkm](zcash:u1rcw0ppy2z4am3rh7kffh0gn3zscw5dpffnvvajwpx4u7qe5syg3ygf0z4cp2w2czxl4tw3k3s5jzgdvdutx0095gp0mdp5mz203cm905kchcp80jsu39s7ummxxeak9rgvel233dgh4rza0t8nsj0dxhu8wmy42dugxgslgedywlwlkm)
 
 ---
 
