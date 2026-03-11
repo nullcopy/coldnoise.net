@@ -5,7 +5,7 @@ title = 'Buy Zcash Privately: A Step-by-Step Guide'
 tags = ['cryptocurrency', 'privacy', 'Zcash', 'tutorial']
 +++
 
-This guide shows you how to buy Zcash (ZEC) **without going through a
+This guide shows you how to buy Zcash ($ZEC) **without going through a
 traditional cryptocurrency exchange**.
 
 Most exchanges require you to upload ID and link your identity directly to
@@ -19,27 +19,17 @@ people using payment apps you already have.
 
 That's it. The whole process takes about 15-20 minutes.
 
-<details>
-<summary><strong>For the technically curious (optional reading)</strong></summary>
-
-You'll use two tools:
-- **[Zashi](https://electriccoin.co/zashi)**: A mobile app that stores your
-  Zcash and performs swaps
-- **[zkP2P](https://zkp2p.xyz)**: A website that connects buyers and sellers
-  for peer-to-peer trades
-
-Technical deep-dives:
-- [How Zashi uses NEAR-Intents to swap USDC on Base for
-  ZEC](https://electriccoin.co/blog/zashi-swaps-decentralized-on-ramp-is-live/)
-- [How zkP2P uses zero-knowledge proofs to prove your USD
-  payment](https://docs.zkp2p.xyz/protocol/zkp2p-protocol)
-</details>
+**We'll use the following tools:**
+- **[Zodl](https://zodl.com)**: A mobile wallet that stores your Zcash and
+  performs swaps
+- **[Peer](https://peer.xyz)**: A website that connects you with people to
+  buy/sell crypto without any middle-men
 
 ## What You'll Need
 
-### 1. Zashi Wallet App
+### 1. Zodl Wallet App
 
-Download Zashi on your phone: https://electriccoin.co/zashi
+Download Zodl on your phone: https://zodl.com
 
 After installing:
 1. Open the app and tap "Create New Wallet"
@@ -79,28 +69,28 @@ You can find the zkP2P guide
 
 ## Step 2: Swap USDC for Zcash
 
-Now you'll convert your USDC into Zcash using the Zashi app. The ZEC you
+Now you'll convert your USDC into Zcash using the Zodl app. The ZEC you
 receive will be private - nobody can see your balance or how you spend your
 ZEC.
 
 ### Start the Swap
 
-1) Open the **Zashi app** on your phone
+1) Open the **Zodl app** on your phone
 
 2) Tap the **"Swap"** button
 
 3) Search for the **USDC** token on **Base**
 
-![Token selection screen in Zashi](screenshots/06-zashi-select-USDC.png "Select USDC on Base as the source token")
+![Token selection screen in Zodl](screenshots/06-zashi-select-USDC.png "Select USDC on Base as the source token")
 
 4) Paste in your zkP2P wallet address you copied (the one starting with "0x")
     - If the swap fails for any reason, your USDC will be returned to that address.
     - Don't worry. You can try again if the swap fails.
-    - **Tip:** Save it as a contact in Zashi so you don't need to copy/paste next time
+    - **Tip:** Save it as a contact in Zodl so you don't need to copy/paste next time
 
 <div class="image-row">
-![Adding contact in Zashi](screenshots/07-zashi-add-contact.png "Save your Base address as a contact for convenience")
-![Request for quote screen](screenshots/08-zashi-swap-rfq.png "Ready to request a swap quote")
+<img src="screenshots/07-zashi-add-contact.png" alt="Adding contact in Zodl" title="Save your Base address as a contact for convenience">
+<img src="screenshots/08-zashi-swap-rfq.png" alt="Request for quote screen" title="Ready to request a swap quote">
 </div>
 
 ### Get Your Price Quote
@@ -118,42 +108,30 @@ zkP2P, around $9.80 in my case).
 
 ### Send Your USDC and Complete the Swap
 
-9) Zashi shows you an address where you need to send your USDC - **copy this
+9) Zodl shows you an address where you need to send your USDC - **copy this
 address**
 
-![Deposit address screen](screenshots/10-zashi-swap-deposit-address.png "Copy the deposit address provided by Zashi")
+![Deposit address screen](screenshots/10-zashi-swap-deposit-address.png "Copy the deposit address provided by Zodl")
 
 10) Switch back to zkP2P website, go to the **"Send"** tab
 
-11) Paste the address from Zashi and send all your USDC to it
+11) Paste the address from Zodl and send all your USDC to it
 
 12) Wait 1-2 minutes for the transaction to confirm
 
-![Sending USDC from zkP2P](screenshots/11-send-from-zkp2p.png "Send your USDC to the Zashi swap address")
+![Sending USDC from zkP2P](screenshots/11-send-from-zkp2p.png "Send your USDC to the Zodl swap address")
 
-13) Return to the Zashi app and tap **"I've sent the funds"**
+13) Return to the Zodl app and tap **"I've sent the funds"**
 
-14) Within moments, you'll see a **"Receiving..."** notification in Zashi
+14) Within moments, you'll see a **"Receiving..."** notification in Zodl
 
 15) After a few minutes, the transaction completes and you have Zcash!
 
 ## You're Done!
 
 Congratulations! You now own Zcash. Your Zcash will take a few minutes to
-become "spendable" (ready to send). Once it's ready, want to test it out?
-Use your ZEC to send me your feedback in an encrypted message!
-
-1. In Zashi, tap **"Send"**
-2. Scan the QR code below (or paste the address)
-3. Leave the amount empty (unless you want to buy me a coffee ☕)
-4. Write me a message in the memo field
-5. Send!
-
-The message is encrypted - only I can read it. I'd love to hear how this guide
-worked for you!
-
-![Author's Zcash shielded address QR code](zec-addr-qr.jpeg)
-[u1rcw0ppy2z4am3rh7kffh0gn3zscw5dpffnvvajwpx4u7qe5syg3ygf0z4cp2w2czxl4tw3k3s5jzgdvdutx0095gp0mdp5mz203cm905kchcp80jsu39s7ummxxeak9rgvel233dgh4rza0t8nsj0dxhu8wmy42dugxgslgedywlwlkm](zcash:u1rcw0ppy2z4am3rh7kffh0gn3zscw5dpffnvvajwpx4u7qe5syg3ygf0z4cp2w2czxl4tw3k3s5jzgdvdutx0095gp0mdp5mz203cm905kchcp80jsu39s7ummxxeak9rgvel233dgh4rza0t8nsj0dxhu8wmy42dugxgslgedywlwlkm)
+become "spendable" (ready to send). Once it's ready, [send me a message in the
+app!](/zcash/) I'd love to hear how this guide worked for you :)
 
 ---
 
